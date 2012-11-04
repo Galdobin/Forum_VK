@@ -1,0 +1,22 @@
+/* 
+    Document   : allView
+    Description:
+        Может быть использован для всех модулей.
+*/
+
+root { 
+    display: block;
+}
+
+th {
+	border: 2px double #333366;
+	color: #333366;
+}
+tr {
+	border: 2px double #333366;
+	color: #333366;
+}
+td {
+	border: 2px double #333366;
+	color: black;
+}
