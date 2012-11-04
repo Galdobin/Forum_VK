@@ -111,7 +111,7 @@
 	/**
 	 * Открытие активного соединения с базой данных на локальном сервере.
 	 */
-	function Connect()
+	function Connect($nameDB = 'forum')
 	{
 		echo 'Соединяемся с базой данных...<br \>';
 		mysql_connect('localhost', 'root', '') or die('Не смогли подключиться к базе данных!<br \>');
